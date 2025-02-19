@@ -21,6 +21,7 @@ public class MainActivity4 extends AppCompatActivity {
         setContentView(R.layout.activity_main4);
 
 
+
         Button button = (Button) findViewById(R.id.backLog);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,5 +39,6 @@ public class MainActivity4 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 }

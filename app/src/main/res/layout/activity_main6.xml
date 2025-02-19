@@ -12,7 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/vector_section"
-        android:layout_marginTop="-70dp"
         />
 
     <LinearLayout
@@ -158,6 +157,7 @@
     </LinearLayout>
 
     <Button
+        android:id="@+id/toWorkout"
         android:layout_width="315dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
