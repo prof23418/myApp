@@ -21,5 +21,24 @@ public class MainActivity4 extends AppCompatActivity {
         setContentView(R.layout.activity_main4);
 
 
+
+        Button button = (Button) findViewById(R.id.backLog);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView button2 = (TextView) findViewById(R.id.butHome);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity4.this, MainActivity6.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

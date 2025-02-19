@@ -19,7 +19,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/frame"
-
             />
 
     </LinearLayout>
@@ -55,6 +54,7 @@
     </LinearLayout>
 
 
+
         <ImageView
             android:id="@+id/next"
             android:layout_width="wrap_content"
@@ -63,5 +63,18 @@
             android:layout_marginTop="150dp"
             android:layout_marginLeft="285dp"
             />
+
+    
+    <Button
+        android:id="@+id/next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=">"
+        android:textSize="20sp"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="295dp"
+        />
+
 
 </LinearLayout>
