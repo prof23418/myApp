@@ -75,6 +75,7 @@
         />
     
     <Button
+        android:id="@+id/backLog"
         android:layout_width="315dp"
         android:layout_height="60dp"
         android:text="Войти"
@@ -132,6 +133,7 @@
             />
 
         <TextView
+            android:id="@+id/butHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Зарегистрироваться"
