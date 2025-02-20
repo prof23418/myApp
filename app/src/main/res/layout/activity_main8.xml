@@ -11,23 +11,49 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="30dp"
+
         android:orientation="horizontal"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="30dp"
         android:layout_gravity="center"
+
         >
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
+            android:src="@drawable/back_navs"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="График сна"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/veryblack"
+            android:layout_gravity="center"
+            android:layout_marginLeft="95dp"
+
             android:src="@drawable/close_navs"
+
             />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/detail_navs"
+
+            android:layout_marginLeft="80dp"
+
             android:layout_marginLeft="250dp"
+
             />
 
     </LinearLayout>
@@ -35,6 +61,12 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:src="@drawable/banner_2"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
         android:src="@drawable/video_section"
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
@@ -44,14 +76,114 @@
     android:orientation="vertical"
     >
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:text="Ваше расписание"
+
         android:text="Прыжки на скакалке"
+
         android:textSize="16sp"
         android:textColor="@color/veryblack"
         android:textStyle="bold"
         android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/date_1"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/date_2"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/date_3"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/date_4"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/date_5"
+            android:layout_marginLeft="20dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/date_6"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/schedule_card_2"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/schedule_card_3"
+        android:layout_gravity="center"
+        android:layout_marginTop="-65dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="-35dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/progressbar_card"
+            />
+        
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="+"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:backgroundTint="@color/green"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="-60dp"
+            />
+
+    </LinearLayout>
+
         android:layout_marginTop="15dp"
 
         />
@@ -68,6 +200,7 @@
         />
 
 </LinearLayout>
+
 
 
 
