@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добро пожаловать,"
+            android:textSize="12sp"
+            android:textColor="@color/gray2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Юрий"
+            android:textSize="20sp"
+            android:textColor="@color/veryblack"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banner"
+            android:layout_marginTop="33dp"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/banner__pie_ellipse"
+                android:layout_marginLeft="-150dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20,1"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="77dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/action"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rectangle_5917"
+                android:layout_marginLeft="-110dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Проверить"
+                android:textSize="11dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="-75dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Статус активности"
+            android:textSize="16sp"
+            android:textColor="@color/veryblack"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/status"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/frame_2"
+                android:layout_marginTop="-155dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="78 BPM"
+                android:textSize="14sp"
+                android:textColor="@color/green"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Вода"
+                    android:textSize="12sp"
+                    android:textColor="@color/veryblack"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 Литра"
+                    android:textSize="14sp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="В реал. времени"
+                    android:textSize="10sp"
+                    android:textColor="@color/darkgray"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6:00 - 8:00"
+                    android:textSize="10sp"
+                    android:textColor="@color/darkgray"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сон"
+                    android:textSize="12sp"
+                    android:textColor="@color/veryblack"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8 ч. 20 мин."
+                    android:textSize="14sp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sleep_graph"
+                    />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

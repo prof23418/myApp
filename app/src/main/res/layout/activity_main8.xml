@@ -11,15 +11,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_marginTop="40dp"
         android:layout_marginLeft="30dp"
         android:layout_gravity="center"
         android:layout_marginRight="30dp"
+
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="center"
+
         >
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:src="@drawable/back_navs"
             />
 
@@ -32,13 +40,20 @@
             android:textColor="@color/veryblack"
             android:layout_gravity="center"
             android:layout_marginLeft="95dp"
+
+            android:src="@drawable/close_navs"
+
             />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/detail_navs"
+
             android:layout_marginLeft="80dp"
+
+            android:layout_marginLeft="250dp"
+
             />
 
     </LinearLayout>
@@ -46,19 +61,35 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:src="@drawable/banner_2"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
         />
 
+        android:src="@drawable/video_section"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        /><LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:text="Ваше расписание"
+
+        android:text="Прыжки на скакалке"
+
         android:textSize="16sp"
         android:textColor="@color/veryblack"
         android:textStyle="bold"
         android:layout_marginLeft="30dp"
+
         android:layout_marginTop="30dp"
         />
 
@@ -152,5 +183,25 @@
             />
 
     </LinearLayout>
+
+        android:layout_marginTop="15dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Просто | 390 калорий"
+        android:textSize="12sp"
+        android:textColor="@color/darkgray"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>
+
+
+
 
 </LinearLayout>

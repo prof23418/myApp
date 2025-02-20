@@ -75,13 +75,14 @@
         />
     
     <Button
+        android:id="@+id/backLog"
         android:layout_width="315dp"
         android:layout_height="60dp"
         android:text="Войти"
         android:textSize="16sp"
         android:backgroundTint="@color/green"
         android:layout_gravity="center"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="300dp"
         />
 
     <ImageView
@@ -132,6 +133,7 @@
             />
 
         <TextView
+            android:id="@+id/butHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Зарегистрироваться"
